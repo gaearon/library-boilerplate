@@ -1,0 +1,16 @@
+{
+  "source": "./src",
+  "destination": "./out",
+  "includes": ["\\.(js|es6)$"],
+  "excludes": ["\\.config\\.(js|es6)$"],
+  "autoPrivate": true,
+  "index": "./README.md",
+  "package": "./package.json",
+  "coverage": true,
+  "test": {
+    "type": "mocha",
+    "source": "./test",
+    "includes": ["spec\\.(js|es6)$"],
+    "excludes": ["\\.config\\.(js|es6)$"]
+  }
+}

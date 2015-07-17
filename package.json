@@ -11,7 +11,8 @@
     "test": "NODE_ENV=test mocha --compilers js:babel/register --recursive",
     "test:watch": "NODE_ENV=test mocha --compilers js:babel/register --recursive --watch",
     "test:cov": "babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha -- --recursive",
-    "prepublish": "npm run lint && npm run test && npm run clean && npm run build && npm run build:umd"
+    "prepublish": "npm run lint && npm run test && npm run clean && npm run build && npm run build:umd",
+    "esdoc": "esdoc -c esdoc.config.json"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "babel-core": "^5.6.18",
     "babel-eslint": "^3.1.15",
     "babel-loader": "^5.1.4",
+    "esdoc": "^0.1.3",
     "eslint": "^0.23",
     "eslint-config-airbnb": "0.0.6",
     "eslint-plugin-react": "^2.3.0",
