@@ -1,3 +1,3 @@
-if (typeof document === "undefined") {
+if (typeof document === 'undefined') {
   global.document = {};
 }
