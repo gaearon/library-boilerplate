@@ -15,3 +15,16 @@ Note that this is an *opinionated* boilerplate. You might want to:
 * Remove `loose: ["all"]` from `.babelrc` so the behavior is spec-compliant.
 
 You have been warned.
+
+
+## build 
+```shellscript
+npm build
+```
+
+# run example 
+```shellscript
+cd example/simple
+npm install
+npm start
+```
